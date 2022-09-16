@@ -1,5 +1,5 @@
 function sayHello(){
-    let name = document.getElementById('name');
-    let sayhi = document.getElementById('result');
+    const name = document.getElementById('name');
+    const sayhi = document.getElementById('result');
     sayhi.innerText="Привет " + name.value +"!";
 }
